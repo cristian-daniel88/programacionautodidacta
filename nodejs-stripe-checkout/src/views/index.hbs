@@ -1,0 +1,49 @@
+<div class="row">
+    <div class="col-md-4 mx-auto">
+        <div class="card">
+            <img src="guitarbook.jpg" alt="Tango Guitar Book" class="card-img-top">
+            <div class="card-body">
+                <h2>10$</h2>
+                <p>
+                    "Tocate un Tango, haceme caso, yo se por que te lo digo."
+                    </br>
+                    "Play Tango on the guitar."
+                </p>
+            </div>
+            <div class="card-footer">
+                <form action="/checkout" method="POST">
+                    <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                        data-key="pk_test_4JTgqYKDORgHqtwR5ir1Kr9s00omEsVa3S" data-name="Buy here"
+                        data-amount="1000"
+   
+                        data-name= "Cristian Herrera Music"
+                        data-description="Guitar Music Book" 
+                        data-image = "/logo.jpg"
+                        data-locale="auto"
+                        data-currency="usd">
+                        </script>
+                        <script>
+                            document.getElementsByClassName('stripe-button-el')[0].style.display = 'none';
+                            document.getElementsByClassName("Fieldset-input Textbox-control")[1].setAttribute("placeholder","target");
+                            
+                         
+        
+                           
+                            
+
+                            
+                           
+                            
+                        
+
+                        </script>
+                <button class="btn btn-dark btn-block">
+                    Buy <i class="fas fa-shopping-cart"></i>
+                </button>
+                </form>
+
+                
+            </div>
+        </div>
+    </div>
+</div>

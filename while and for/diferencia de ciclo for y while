@@ -1,0 +1,23 @@
+
+
+en While las variables se declaran antes del bucle, en For adentro del bucle
+
+index = 1;
+while(index <= 5){
+    document.write(index);
+    index++;
+}
+
+
+
+for(var i = 0; i < 5; i++){				(declaring or specifying a counting variable ; boolean expression ; iterative action)
+    document.write(i);					Se ha convertido en práctica nombrar esta variable i, que significa iterador.
+}
+
+
+
+
+
+
+
+

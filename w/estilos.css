@@ -1,0 +1,821 @@
+body{
+	font-family: arial;
+}
+
+header, section, footer {
+	width: 960px;
+	margin-right:auto; 
+	margin-left:auto;
+}
+
+header{
+	height: 236px;
+	background-color: #0f0024;
+
+}
+#titulo{
+	width: 700px;
+	height: 195px;
+	float: left;
+}
+
+h1{
+	font-size: 80px;
+	color: #58d12c;
+	margin-top: 60px;
+	margin-left: 100px;
+	font-family: Cooper Black;
+
+}
+
+
+#logo{
+	width: 250px;
+	height: 175px;
+	float: left;
+}
+
+#logo img{
+	width: 86%;
+	float: right;
+	margin-top: 10px;
+}
+
+#botonera{
+	width: 700px;
+	height: 41px;
+	clear: both;
+}
+
+#botonera ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+#botonera ul li {
+	display: inline;
+}
+
+#botonera ul li a {
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: bold;
+	padding: 10px 35px;
+	font-size: 18px;
+	display: inline-block;
+}
+
+#botonera ul li a:hover {
+	background-color: #ffffff;
+	color:#04941a;
+}
+
+#conocenos{		
+	height: 1000px;
+	background-color: #0f0024;
+}
+
+#img_1{
+	width: 960px;
+	height: 433px;
+	background-color: #ebeb10;
+	margin-bottom: 10px;
+}
+#img_1 img{
+	width: 100%;
+}
+
+
+#txt_1{
+	width: 960px;
+	height: 130px;
+	background-color: #160038;
+	padding: 10px;
+	box-sizing: border-box;
+	font-size: 20px;
+	text-align: center;
+	color: #cccccc;
+}
+#img_2{
+	width: 475px;
+	height: 200px;
+	background-color: #fce33d;
+	float: left;
+	margin-top: 10px;
+	background-image: url(imagenes/cebadaa.jpg);
+}
+
+#img_2 img{
+	width: 100%;
+}
+
+#txt_2{
+	width: 475px;
+	height: 200px;
+	background-color: #160038;
+	float: right;
+	margin-top: 10px;
+	box-sizing: border-box;
+	padding: 10px;
+	color: #cccccc;
+}
+
+#txt_3{
+	width: 475px;
+	height: 200px;
+	background-color: #160038;
+	float: left;
+	margin-top: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+	color: #cccccc;
+}
+#img_3{
+	width: 475px;
+	height: 200px;
+	background-color: #f0e178;
+	float: right;
+	margin-top: 10px;
+	background-image: url(imagenes/lupuloo.jpg);
+	background-size: cover;
+
+}
+
+#img_3 img{
+	width: 100%;
+}
+
+#productos{
+	height: 760px;
+	background-color: #ffffff;
+}
+
+#golden{
+	width: 320px;
+	height: 370px;
+	float: left;
+	margin-top: 10px;
+	background-image: url(imagenes/golden.jpg);
+	background-size: cover;
+}
+#golden_txt{	
+	background-color: rgba(223,242,227,0);
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 30PX;
+	font-family: arial Black;
+	text-align: center;
+}
+
+#honey{
+	width: 320px;
+	height: 370px;
+	float: left;
+	margin-top: 10px;
+	background-image: url(imagenes/honey.jpg);
+	background-size: cover;
+}
+#honey_txt{
+	background-color: rgba(223,242,227,0);
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 30PX;
+	font-family: arial Black;
+	text-align: center;
+}
+
+#apa{
+	width: 320px;
+	height: 370px;
+	float: left;
+	margin-top: 10px;
+	background-image: url(imagenes/apa.jpg);
+	background-size: cover;
+}
+#apa_txt{
+	background-color: rgba(223,242,227,0);
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 30PX;
+	font-family: arial Black;
+	text-align: center;
+}
+
+#irish{
+	width: 320px;
+	height: 370px;
+	float: left;
+	margin-top: 10px;
+	background-image: url(imagenes/irish.jpg);
+	background-size: cover;
+}
+#irish_txt{
+	background-color: rgba(223,242,227,0);
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 30PX;
+	font-family: arial Black;
+	text-align: center;
+}
+
+#ipa{
+	width: 320px;
+	height: 370px;
+	float:left;
+	margin-top: 10px;
+	background-image: url(imagenes/ipa.jpg);
+	background-size: cover;
+}
+#ipa_txt{
+	background-color: rgba(223,242,227,0);
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 30PX;
+	font-family: arial Black;
+	text-align: center;
+}
+
+#stout{
+	width: 320px;
+	height: 370px;
+	float: left;
+	margin-top: 10px;
+	background-image: url(imagenes/stout.jpg);
+	background-size: cover;
+}
+#stout_txt{
+	background-color: rgba(255,255,255,0);
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 30PX;
+	font-family: arial Black;
+	text-align: center;
+}
+
+
+#experiencia{
+	height: 1455px;
+	background-color: #0f0024;	
+	
+}
+
+#txt_4{
+	width: 940px;
+	height: 150px;
+	padding: 10px;
+	background-color: #2b1c1c;
+	color: #ffffff;
+}
+
+h3{
+	font-size: 25px;
+	color: #58d12c;
+}
+
+#botonera_experiencia{
+	width: 960px;
+	height: 45px;
+	clear: both;
+	background-color: #5787d9;
+}
+
+#botonera_experiencia ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+#botonera_experiencia ul li {
+	display: inline;
+}
+
+#botonera_experiencia ul li a {
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: bold;
+	padding: 10px 23px;
+	font-size: 18px;
+	display: inline-block;
+}
+
+#botonera_experiencia ul li a:hover {
+	background-color: #ffffff;
+	color:#04941a;
+}
+
+.info {
+	width: 940px;
+	height: 400px;
+	float: left;
+	background-color: #cccccc;
+	margin: 10px;
+}
+
+.info img {
+	width: 100%;
+}
+
+
+#img_5a{
+	width: 310px;
+	height: 585px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	float: left;
+	background-image: url(imagenes/brindis1.jpg);
+	background-size: cover;
+}
+
+#txt_5img{
+	width: 310px;
+	height: 585px;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	margin-left: 15px;
+	float: left;
+	background-image: url(imagenes/brindis4.jpg);
+	background-size: cover;
+
+}
+#txt_5{
+	background-color: rgba(250,173,30,0.2);
+	font-size: 16.5px;
+	font-family: arial Black;
+	text-align: center;
+}
+
+#img_5b{
+	width: 310px;
+	height: 585px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 15px;
+	float: right;
+	background-image: url(imagenes/brindis2.jpg);
+	background-size: cover;
+}
+#txt_6{
+	width: 960px;
+	height: 200px;
+	background-color: #5787d9;
+	clear: both;
+}
+
+
+#contactanos{
+	height: 125px;
+	background-color: #000000;
+}
+#nosotros{
+	width: 450px;
+	height: 80px;
+	background-color: #2b1c1c;
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+
+#redes{
+	width: 450px;
+	height: 80px;
+	background-color: #636161;
+	float: right;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+
+footer {
+	height: 200px;
+	background-color: #1ff24d;
+	margin-top: 5px;
+}
+
+
+
+
+/*inicio de 600 a 1023*/
+
+
+@media all and (min-width: 600px) and (max-width: 1023px){
+
+header, section, footer {
+	width: 580px;
+}
+
+header{
+	height: 200px;
+
+}
+#titulo{
+	width: 430px;
+	height: 150px;
+}
+
+h1{
+	font-size: 50px;
+	margin-top: 50px;
+	margin-left: 50px;
+
+}
+
+#logo{
+	width: 150px;
+	height: 150px;
+}
+
+#logo img{
+	margin-right: 10px;
+}
+
+#botonera{
+	width: 580px;
+	height: 40px;
+}
+
+#botonera ul li a {
+	padding: 10px 24px;
+}
+
+
+#conocenos{		
+	height: 1200px;
+}
+
+#img_1{
+	width: 580px;
+	height: 260px;
+	margin-bottom: 2px;
+}
+
+
+#txt_1{
+	width: 580px;
+	height: 170px;
+}
+#img_2{
+	width: 580px;
+	height: 150px;
+}
+
+#txt_2{
+	width: 580px;
+	height: 260px;
+	font-size: 20px;
+	margin-top: 0;
+	padding: 15px;
+}
+
+#txt_3{
+	width: 580px;
+	padding: 15px;
+	font-size: 20px;
+	margin-top: 0;
+}
+#img_3{
+	width: 580px;
+	height: 130px;
+	background-size: contain;
+}
+
+#productos{
+	height: 1080px;
+}
+
+#golden{
+	width: 290px;
+	height: 350px;
+}
+
+#honey{
+	width: 290px;
+	height: 350px;
+	float: right;
+}
+
+#apa{
+	width: 290px;
+	height: 350px;
+}
+
+#irish{
+	width: 290px;
+	height: 350px;
+	float: right;
+}
+
+#ipa{
+	width: 290px;
+	height: 350px;
+}
+
+#stout{
+	width: 290px;
+	height: 350px;
+	float: right;
+}
+
+
+#experiencia{
+	height: 3515px;
+}
+
+#txt_4{
+	width: 580px;
+	height: 140px;
+	margin-top: 10px;
+}
+
+#img_5a{
+	width: 580px;
+	height: 1000px;
+	margin-bottom: 0;
+}
+
+#txt_5img{
+	width: 580px;
+	height: 1000px;
+	margin-left: 0;
+
+}
+#txt_5{
+	font-size: 25px;
+	margin: 30px 30px;
+}
+
+#img_5b{
+	width: 580px;
+	height: 1000px;
+	margin-top: 0;
+	margin-left: 0;
+}
+
+#txt_6{
+	width: 580px;
+	height: 300px;
+	background-color: #5787d9;
+	clear: both;
+}
+
+
+#contactanos{
+	height: 400px;
+	background-color: #eb4034;
+}
+#nosotros{
+	width: 580px;
+	height: 80px;
+	background-color: #2b1c1c;
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 0;
+}
+
+#redes{
+	width: 580px;
+	height: 80px;
+	background-color: #636161;
+	float: left;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	margin-left: 0;
+}
+
+
+footer {
+	height: 400px;
+	background-color: #1ff24d;
+	margin-top: 5px;
+}
+
+} /*fin de 600 a 1023*/
+
+
+/*inicio de 599 a menos*/
+
+@media all and (max-width: 599px) {
+
+header, section, footer {
+	width: 90%;
+}
+
+header{
+	height: auto;
+	width: none;
+
+}
+#titulo{
+	width: 100%;
+	height: auto;
+	float: none;
+}
+
+h1{
+	text-align: center;
+	font-size: 70px;
+	margin-top: 0;
+	margin-left: 20px;
+	padding: 15px;
+}
+
+
+#logo{
+display: none;
+}
+
+#botonera{
+	width: 100%;
+	height: auto;
+}
+
+#botonera ul li {
+	display: block;
+}
+
+#botonera ul li a {
+	width: 100%;
+	box-sizing: border-box;
+	padding: 10px 15px;
+	font-size: 20px;
+	text-align: center;
+}
+
+#conocenos{		
+	height: 100%;
+}
+
+#img_1{
+	width: 100%;
+	height: auto;
+	background-color: #160038;
+	margin-bottom: 0;
+}
+#img_1 img{
+	width: 100%;
+}
+
+
+#txt_1{
+	width: 100%;
+	height: auto;
+}
+#img_2{
+	width: 100%;
+	height: all;
+	float: none;
+	margin-top: 0;
+}
+
+#img_2 img{
+	width: 100%;
+}
+
+#txt_2{
+	width: 100%;
+	height: auto;
+	float: none;
+	text-align: center;
+	font-size: 20px;
+}
+
+#txt_3{
+	width: 100%;
+	height: auto;
+	float: none;
+	text-align: center;
+	font-size: 20px;
+}
+#img_3{
+	width: 100%;
+	height: all;
+	float: none;
+	margin-top: 0;
+
+}
+
+#img_3 img{
+	width: 100%;
+}
+
+#productos{
+	height: auto;
+}
+
+#golden{
+	width: 100%;
+	height: all;
+	float: none;
+}
+
+#honey{
+	width: 100%;
+	height: all;
+	float: none;
+}
+
+#apa{
+	width: 100%;
+	height: all;
+	float: none;
+}
+
+#irish{
+	width: 100%;
+	height: all;
+	float: none;
+}
+
+#ipa{
+	width: 100%;
+	height: all;
+	float: none;
+}
+
+#stout{
+	width: 100%;
+	height: all;
+	float: none;
+}
+
+
+#experiencia{
+	height: auto;
+}
+
+#txt_4{
+	width: 100%;
+	height: all;
+}
+
+#img_5a{
+	display: none;
+}
+
+#txt_5{
+	width: 100%;
+	height: all;
+}
+
+#txt_5img{
+	width: 100%;
+	height: all;
+	margin-left: 0;
+
+}
+#txt_5{
+	font-size: 15px;
+	margin-left: 0;
+}
+
+#img_5b{
+	display: none;
+}
+#txt_6{
+	width: 100%;
+	height: all;
+}
+
+
+#contactanos{
+	height: all;
+}
+#nosotros{
+	width: 100%;
+	height: all;
+	float: none;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 0;
+}
+
+#redes{
+	width: 100%;
+	height: all;
+	float: none;
+	margin-bottom: 0;
+	margin-top: 0;
+	margin-right: 0;
+}
+
+
+footer {
+	height: all;
+	margin-top: 0;
+}
+
+
+} /*fin  de 599*/
+
+
+
+
+
+
+
+
+
+
+
